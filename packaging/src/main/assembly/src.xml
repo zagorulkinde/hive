@@ -75,6 +75,7 @@
         <include>hwi/**/*</include>
         <include>itests/**/*</include>
         <include>jdbc/**/*</include>
+        <include>jdbc-handler/**/*</include>
         <include>contrib/**/*</include>
         <include>metastore/**/*</include>
         <include>llap-common/**/*</include>
