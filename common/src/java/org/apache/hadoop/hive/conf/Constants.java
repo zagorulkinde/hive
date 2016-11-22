@@ -35,8 +35,9 @@ public class Constants {
   public static final String HADOOP_CREDENTIAL_PASSWORD_ENVVAR = "HADOOP_CREDSTORE_PASSWORD";
   public static final String HADOOP_CREDENTIAL_PROVIDER_PATH_CONFIG = "hadoop.security.credential.provider.path";
 
-  public static final String JDBC_HIVE_STORAGE_HANDLER_ID = "org.apache.hive.jdbc.JDBCStorageHandler";
-  public static final String JDBC_HIVE_STORAGE_HANDLER_DRIVER_CLASS  = "mapred.jdbc.driver.class";
-  public static final String JDBC_HIVE_STORAGE_HANDLER_MAPRED_URL = "mapred.jdbc.url";
-  public static final String JDBC_HIVE_STORAGE_HANDLER_MAPRED_TABLE_NAME = "mapred.jdbc.input.table.name";
+  public static final String JDBC_STORAGE_HANDLER_DRIVER_CLASS = "mapred.jdbc.driver.class";
+  public static final String JDBC_STORAGE_HANDLER_MAPRED_URL = "mapred.jdbc.url";
+  public static final String JDBC_STORAGE_HANDLER_MAPRED_TABLE_NAME = "mapred.jdbc.input.table.name";
+  public static final String JDBC_STORAGE_HANDLER_MAPRED_USER = "mapred.jdbc.username";
+  public static final String JDBC_STORAGE_HANDLER_MAPRED_PASSWORD = "mapred.jdbc.password";
 }

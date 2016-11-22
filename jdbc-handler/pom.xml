@@ -169,6 +169,14 @@
             <artifactId>avro</artifactId>
             <version>1.7.6</version>
         </dependency>
+
+        <!-- For dev purposes -->
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2</version>
+        </dependency>
+        <!-- TODO Delete -->
     </dependencies>
 
     <build>

@@ -16,7 +16,7 @@ public class HiveMySqlVendorBridge implements HiveJDBCVendorBridge {
 
   @Override
   public HiveJDBCTypeBridge getTypeBridge() {
-    return null;
+    return new HiveMySqlTypeBridge();
   }
 
   @Override
